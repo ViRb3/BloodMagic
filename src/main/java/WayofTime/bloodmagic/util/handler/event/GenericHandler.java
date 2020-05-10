@@ -562,6 +562,8 @@ public class GenericHandler {
         filledHandMapMap.getOrDefault(world, Collections.emptyMap()).clear();
         attackTaskMapMap.getOrDefault(world, Collections.emptyMap()).clear();
         targetTaskMapMap.getOrDefault(world, Collections.emptyMap()).clear();
+        forceSpawnMap.getOrDefault(world, Collections.emptyMap()).clear();
+        preventSpawnMap.getOrDefault(world, Collections.emptyMap()).clear();
         PotionEventHandlers.flightListMap.getOrDefault(world, Collections.emptyList()).clear();
         PotionEventHandlers.noGravityListMap.getOrDefault(world, Collections.emptyList()).clear();
     }
